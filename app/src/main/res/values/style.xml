@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationTextStyle" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/BottomNavigationTextStyle</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationTextStyle</item>
+        <item name="itemIconSize">20dp</item>
+        <item name="itemHorizontalTranslationEnabled">false</item>
+    </style>
+</resources>

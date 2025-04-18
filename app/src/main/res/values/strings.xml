@@ -13,4 +13,6 @@
     <string name="value_dont_have_account">Don\'t have an account? Sign up</string>
     <string name="hint_product_search_edit_text">Search for product?</string>
     <string name="image_description">Image description</string>
+    <string name="value_home">Home</string>
+    <string name="value_profile">Profile</string>
 </resources>
