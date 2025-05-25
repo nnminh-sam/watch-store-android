@@ -15,4 +15,10 @@
     <string name="image_description">Image description</string>
     <string name="value_home">Home</string>
     <string name="value_profile">Profile</string>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
 </resources>

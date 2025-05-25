@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 import nnminh.playground.watchstoreandroid.MainActivity;
 import nnminh.playground.watchstoreandroid.R;
 
-public class LoginActivity extends AppCompatActivity {
+public class AuthenticationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

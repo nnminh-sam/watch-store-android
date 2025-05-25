@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/image_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_android_black_24dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/circle_background"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:id="@+id/text_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Darlene Robertson"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="darlene@example.com"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/light_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/darker_gray"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/btn_edit_profile"
+            style="@style/ProfileMenuButton"
+            android:text="Edit Profile" />
+
+        <Button
+            android:id="@+id/btn_delivery_address"
+            style="@style/ProfileMenuButton"
+            android:text="Delivery Address" />
+
+        <Button
+            android:id="@+id/btn_order_history"
+            style="@style/ProfileMenuButton"
+            android:text="Order History" />
+    </LinearLayout>
+</LinearLayout>

@@ -25,7 +25,7 @@ import nnminh.playground.watchstoreandroid.ui.adapters.ProductGridAdapter;
 public class HomeFragment extends Fragment {
 
     public HomeFragment() {
-        super(R.layout.home_fragment);
+        super(R.layout.fragment_home);
     }
 
     @Override
